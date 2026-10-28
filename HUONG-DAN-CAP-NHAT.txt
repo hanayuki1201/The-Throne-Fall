@@ -1,0 +1,33 @@
+THE THRONE FALL — BẢN MENU GAME
+
+1. Giải nén file ZIP.
+2. Mở repository hanayuki1201/The-Throne-Fall trên GitHub.
+3. Add file → Upload files. Kéo toàn bộ nội dung trong thư mục đã giải nén lên cấp gốc repository (index.html phải ở cấp gốc, cùng assets). Không tải nguyên file ZIP lên.
+4. Commit changes vào main.
+5. Chờ GitHub Pages triển khai thành công, rồi mở lại https://hanayuki1201.github.io/The-Throne-Fall/ .
+
+Nếu dùng GitHub Desktop: chép đè nội dung gói vào repository đang clone, Commit rồi Push origin.
+
+DẤU HIỆU ĐÚNG BẢN
+- Menu game cố định; mỗi mục mở một màn. Không cuộn xuyên cả website.
+- Sảnh chuyển động nhẹ, có nút tắt hiệu ứng.
+- Atlas có điểm sáng bấm mở miền; NPC có màn chọn chân dung lớn.
+- Hồ sơ điền qua 5 bước.
+- Nền không chữ; màu kem, xanh ngọc, vàng.
+- Atlas có 4 bản đồ; 8 nhân vật; cẩm nang 21 phần; 63 mục lệnh.
+- Hồ sơ có tuổi, giới tính và thân phận Kẻ Bị Gạch Tên bị khóa.
+- Footer: 2026/10 Độc Dược Ngọt Ngào.
+
+NHẠC
+Chạm một lần trên trang để bắt đầu. Trình phát ở góc dưới bên phải. Âm lượng mặc định 55%; có hai bài, dừng/phát/đổi bài. Khi đã tắt, web giữ lựa chọn đó; nhấn Phát nhạc để bật lại.
+
+ĐÃ KIỂM
+Bố cục desktop và khung rộng 375px; ảnh dọc tự đổi theo màn hình; bản đồ Liora tải và mở ảnh; tìm cẩm nang; tìm và sao chép lệnh; phân điểm; chặn tuổi Sylven dưới 30; xem lại, xác nhận và sao chép hồ sơ; cả hai file nhạc phát được và dừng không tự bật lại. Kiểm trên Chromium; chưa kiểm máy Safari/iPhone thực tế.
+
+TRẠNG THÁI PHÁT HÀNH
+Bản sửa đã hoàn thành tại thời điểm đóng gói. Chưa cập nhật web công khai vì kết nối GitHub từ chối quyền ghi (403 Resource not accessible by integration).
+
+CÁC FILE MỚI QUAN TRỌNG
+Phải tải đủ game.css và game.js cùng index.html. Không dùng index.html cũ với bộ mới. Nội dung dài vẫn có vùng cuộn riêng trong cẩm nang hoặc màn đang mở.
+
+Kiểm bổ sung: chỉ một màn hiển thị; chiều cao ngoài bằng viewport; pin Kharven mở đúng vùng; chọn Dain đổi hồ sơ; form 5 bước xuất đúng; nhạc tiếp tục khi chuyển từ hồ sơ sang Atlas. Menu mobile và vị trí nút hiệu ứng đã kiểm ở khung 390px.

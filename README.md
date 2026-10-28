@@ -1,114 +1,50 @@
-# 👑 THE THRONE FALL — Dưới Ngai Tàn | Độc Dược Ngọt Ngào 🍷
+# THE THRONE FALL — Dưới Ngai Tàn
 
-> *"Khi vương quyền sụp đổ, kẻ sống sót không phải kẻ mạnh nhất, mà là kẻ hiểu rõ vị đắng của độc dược hoàng gia."*
+Website giới thiệu thế giới, Atlas, nhân vật và cẩm nang Tân thủ; kèm công cụ chuẩn bị hồ sơ để mang vào phiên chơi.
 
-Một giao diện web tương tác (Interactive Visual Novel / Chatbot Roleplay Landing Page) dành riêng cho dự án chatbot AI Roleplay **THE THRONE FALL**. Trang web được thiết kế theo phong cách Dark Gothic Fantasy sang trọng, huyền bí với các hiệu ứng hình ảnh, âm thanh nền (BGM) và cơ chế khởi tạo nhân vật trực quan.
+Public URL: https://hanayuki1201.github.io/The-Throne-Fall/
 
----
+## Nội dung
 
-## 🌟 Điểm Nổi Bật Của Giao Diện (Vibe & Tính Năng)
+- Hai ảnh nền không chữ: ngang cho desktop, dọc cho màn hình nhỏ.
+- 4 bản đồ/sơ đồ, 6 miền đất, tính tuyến đi bộ Liora và phóng lớn ảnh.
+- 8 NPC, nghề, hành trang, Hoa Đăng và các đối tượng cơ khí.
+- Cẩm nang 21 chương chuyển từ bản tác giả, tìm kiếm và 63 mục lệnh có sao chép.
+- Hồ sơ có tuổi, giới tính, thân phận cố định, kiểm chỉ số, xác nhận và xuất TXT.
+- Hai bản nhạc Scott Buckley, phát sau thao tác đầu tiên, dừng/đổi bài/âm lượng; giữ lựa chọn tắt.
 
-- 🏰 **Aesthetic Dark Gothic Hoàng Gia**: Sử dụng bảng màu Hoàng tộc sa đọa (`#080C14` Abyss, `#D4AF37` Gold Empire, `#991B1B` Crimson Throne) kết hợp hiệu ứng tàn tro / hoa đăng nổi trôi (`embers-container`).
-- 🎭 **Cổng Hành Trình — Khởi Tạo Nhân Vật (Character Creator)**:
-  - Lựa chọn chủng tộc, nghề nghiệp và danh xưng hoàng triều.
-  - Phân bổ 6 điểm thuộc tính RPG cốt lõi: **STR** (Sức mạnh), **AGI** (Nhanh nhẹn), **CON** (Thể chất), **INT** (Trí tuệ), **WIL** (Ý chí), **PER** (Cảm tri).
-  - Tích hợp các bộ chỉ số mẫu (Chiến Binh, Thuật Sĩ, Sát Thủ, Quý Tộc) và thanh trượt ngân sách hành trang.
-- 💬 **Khung Hội Thoại Mô Phỏng (Dialogue Simulation)**:
-  - Tương tác với **Dain (Quầy L5)** với bong bóng đối thoại phong cách Visual Novel, hiển thị trạng thái cảm xúc và độ thiện cảm.
-  - Hỗ trợ nhập liệu mô phỏng tin nhắn và nút thao tác phản hồi nhanh.
-- 🧭 **Lãnh Địa & Cẩm Nang Lữ Khách**:
-  - Bản đồ lãnh địa tương tác và thông tin khu vực.
-  - Bảng tra cứu lệnh roleplay chuẩn (Check stat, Roll xúc xắc, Inventory, Time skip...).
-- 🎵 **Hệ Thống HUD & Âm Thanh Nền (BGM)**:
-  - Thanh trạng thái hiển thị thời gian, địa điểm, số dư tiền vàng hoàng kim.
-  - Trình phát BGM tích hợp danh sách nhạc không khí huyền ảo, điều chỉnh âm lượng và hiệu ứng trực quan.
+Website là cổng thông tin và chuẩn bị hồ sơ. Phiên roleplay diễn ra trong cuộc trò chuyện có bộ chơi của tác giả; website không tạo trạng thái chơi hoặc giả lập AI.
 
----
+## Cập nhật
 
-## 📁 Cấu Trúc Thư Mục Repository
+Sửa index.html (nội dung), styles.css (giao diện), app.js (tương tác), guide-data.js (cẩm nang). Giữ thư mục assets cùng cấp index.html. Push main để GitHub Pages cập nhật. Khi đổi CSS/JS hãy tăng tham số phiên bản trong index.html.
 
-```text
-the-throne-fall/
-├── index.html       # Toàn bộ mã nguồn giao diện (HTML5, Tailwind CSS, Lucide Icons, BGM & Script)
-├── README.md        # Tài liệu hướng dẫn dự án và triển khai
-├── .gitignore       # Cấu hình bỏ qua các tệp không cần thiết khi commit Git
-└── LICENSE          # Giấy phép mã nguồn mở MIT
-```
+## Kiểm tra
 
-> **Ghi chú**: Tệp `index.html` được thiết kế dạng **Single-Page Application (SPA) độc lập**, tích hợp sẵn hình ảnh và biểu tượng, giúp bạn có thể chạy ngay lập tức mà không cần cài đặt môi trường Node.js hay build phức tạp.
+node --check app.js
 
----
+Chạy một static server tại thư mục gốc. Kiểm nhạc sau click, đổi bài/dừng, bản đồ và phóng ảnh, tìm cẩm nang, sao chép lệnh, kiểm tuổi theo cư dân, phân điểm, xác nhận và tải hồ sơ.
 
-## 🚀 Hướng Dẫn Chạy Thử Nghiệm Trên Máy Cục Bộ (Local)
+## Nguồn & ghi công
 
-1. **Cách 1 (Đơn giản nhất)**: 
-   Nhấp đúp trực tiếp vào tệp `index.html` để mở trên trình duyệt bất kỳ (Chrome, Edge, Firefox, Safari).
+Nội dung, hình ảnh: dự án THE THRONE FALL của Độc Dược Ngọt Ngào. Cẩm nang gốc: https://docs.google.com/document/d/1WluqMjUNWuZhCp172qv0F_LAQs9Rupq7/edit
 
-2. **Cách 2 (Sử dụng Python Web Server)**:
-   Mở terminal tại thư mục dự án và chạy:
-   ```bash
-   python -m http.server 8000
-   ```
-   Sau đó truy cập: `http://localhost:8000`
+The Miracle of Flight and Wanderlust by Scott Buckley — released under CC BY 4.0. https://www.scottbuckley.com.au/library/ . Full mixes are stored unmodified. License: https://creativecommons.org/licenses/by/4.0/ . Music attribution is also visible inside the website music player.
 
-3. **Cách 3 (Sử dụng VS Code Live Server)**:
-   Mở thư mục trong Visual Studio Code, cài tiện ích **Live Server**, nhấp chuột phải vào `index.html` và chọn **Open with Live Server**.
+Fonts: Be Vietnam Pro and Noto Serif, SIL Open Font License; license files are in assets/fonts.
 
----
+The repository MIT license covers source code; third-party audio/fonts retain their own licenses. Project text and artwork retain their respective rights.
 
-## 🌐 Hướng Dẫn Tải Lên GitHub & Kích Hoạt GitHub Pages (Miễn Phí)
+## Bản menu game
 
-### Bước 1: Tạo Repository Mới Trên GitHub
-1. Đăng nhập vào [GitHub](https://github.com/).
-2. Nhấn vào nút **New** (Tạo repo mới).
-3. Đặt tên repository (ví dụ: `the-throne-fall` hoặc `the-throne-fall-roleplay`).
-4. Để chế độ **Public** và không cần tích chọn README/gitignore (vì gói này đã có sẵn).
-5. Nhấn **Create repository**.
+Sảnh và từng khu là các màn độc lập trong cùng trang, không kéo xuyên suốt website. Chuyển mục không tải lại tài liệu nên nhạc và nội dung hồ sơ giữ nguyên.
 
-### Bước 2: Đẩy Mã Nguồn Lên GitHub Bằng Dòng Lệnh (Git CLI)
-Mở terminal/cmd tại thư mục này và thực hiện lần lượt các lệnh:
+- game.css: khung game toàn màn hình, rail menu, cửa sổ và responsive.
+- game.js: điều hướng màn, hồ sơ 5 bước, điểm chọn Atlas, chọn NPC, hiệu ứng và chế độ giảm chuyển động.
+- Hiệu ứng: bụi sáng nhẹ, nền theo chuột, viền điểm chọn và chuyển cảnh. Có nút tắt và tuân thủ prefers-reduced-motion.
+- Bản đồ gốc chỉ định hướng, tọa độ điểm chọn là vị trí minh họa; dùng sơ đồ tuyến để tính quãng đường.
 
-```bash
-# 1. Khởi tạo kho lưu trữ Git
-git init
-
-# 2. Thêm tất cả tệp vào danh sách chuẩn bị commit
-git add .
-
-# 3. Tạo commit đầu tiên
-git commit -m "feat: initial commit for The Throne Fall interactive web app"
-
-# 4. Đổi tên nhánh mặc định thành main
-git branch -M main
-
-# 5. Liên kết với repository GitHub của bạn (thay URL bằng link repo thật của bạn)
-git remote add origin https://github.com/TÊN_GITHUB_CỦA_BẠN/TÊN_REPOSITORY.git
-
-# 6. Đẩy mã nguồn lên GitHub
-git push -u origin main
-```
-
-*(Nếu dùng GitHub Desktop, bạn chỉ cần chọn File -> Add Local Repository -> Chọn thư mục này rồi nhấn Publish repository)*.
-
-### Bước 3: Bật Tính Năng GitHub Pages Để Tạo Web Online
-Sau khi push code thành công:
-1. Vào tab **Settings** của repository trên GitHub.
-2. Ở thanh bên trái, chọn mục **Pages**.
-3. Tại phần **Build and deployment** > **Branch**:
-   - Chọn nhánh: **main**
-   - Chọn thư mục: **/ (root)**
-4. Nhấn **Save**.
-5. Đợi khoảng 1–2 phút, GitHub Pages sẽ cung cấp cho bạn một đường link công khai dạng:
-   `https://TÊN_GITHUB_CỦA_BẠN.github.io/TÊN_REPOSITORY/`
-
----
-
-## 🛠️ Hướng Dẫn Mở Rộng & Phát Triển Tiếp
-
-- **Tích hợp API Chatbot**: Trong `index.html`, bạn có thể nối sự kiện gửi tin nhắn tại hàm xử lý chat vào endpoint API AI (OpenAI, Gemini, Claude, hoặc backend tự dựng) để trò chuyện thực tế.
-- **Thêm nhân vật & cốt truyện**: Bạn có thể bổ sung các thẻ nhân vật khác vào danh sách lựa chọn trong khu vực Character Creator.
-- **Tùy biến âm thanh**: Thay thế các nguồn link audio BGM trực tuyến bằng file nhạc yêu thích trong thẻ `<audio>`.
-
----
-
-*Dự án được xây dựng và đóng gói bởi Kail & Shion.* ⚔️🍷
+Tham khảo thiết kế (không sao chép tài sản):
+https://immersive-g.com/projects/amazon-new-world/ — map-driven storytelling, hover interactions.
+https://bruno-simon.com/ — website as interactive space, user-controlled effects/audio.
+https://genshin.hoyoverse.com/en/map — presentation of regions.
