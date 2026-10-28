@@ -27,7 +27,7 @@ Chạy một static server tại thư mục gốc. Kiểm nhạc sau click, đ�
 
 ## Nguồn & ghi công
 
-Nội dung, hình ảnh: dự án THE THRONE FALL của Độc Dược Ngọt Ngào. Cẩm nang gốc: https://docs.google.com/document/d/1WluqMjUNWuZhCp172qv0F_LAQs9Rupq7/edit
+Nội dung, hình ảnh: dự án THE THRONE FALL của Độc Dược Ngọt Ngào.
 
 The Miracle of Flight and Wanderlust by Scott Buckley — released under CC BY 4.0. https://www.scottbuckley.com.au/library/ . Full mixes are stored unmodified. License: https://creativecommons.org/licenses/by/4.0/ . Music attribution is also visible inside the website music player.
 

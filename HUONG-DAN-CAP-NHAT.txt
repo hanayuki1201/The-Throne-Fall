@@ -31,3 +31,7 @@ CÁC FILE MỚI QUAN TRỌNG
 Phải tải đủ game.css và game.js cùng index.html. Không dùng index.html cũ với bộ mới. Nội dung dài vẫn có vùng cuộn riêng trong cẩm nang hoặc màn đang mở.
 
 Kiểm bổ sung: chỉ một màn hiển thị; chiều cao ngoài bằng viewport; pin Kharven mở đúng vùng; chọn Dain đổi hồ sơ; form 5 bước xuất đúng; nhạc tiếp tục khi chuyển từ hồ sơ sang Atlas. Menu mobile và vị trí nút hiệu ứng đã kiểm ở khung 390px.
+
+CẬP NHẬT: bỏ toàn bộ link cẩm nang gốc; tăng chữ đọc và menu; thêm dấu ấn Kail · 🦋 Độc Dược Ngọt Ngào 🍷 · Dưới Ngai Tàn.
+
+Chữ ký sảnh: chỉ giữ “Một thế giới của Kail” và “Độc Dược Ngọt Ngào” cùng bướm, ly rượu; đã bỏ dòng chữ ký lặp phía dưới.

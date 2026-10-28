@@ -64,3 +64,8 @@
  panel.querySelector('#character-copy').onclick=()=>copy(n[4]);grid.querySelectorAll('[data-npc]').forEach(b=>{const selected=+b.dataset.npc===i;b.classList.toggle('chosen',selected);b.setAttribute('aria-pressed',selected)})}
  grid.querySelectorAll('[data-npc]').forEach(b=>b.onclick=()=>selectNPC(+b.dataset.npc));selectNPC(0);
 })();
+
+(()=>{
+ const mark=document.createElement('div');mark.className='author-signature';mark.innerHTML='<span class="author-emblem" aria-hidden="true">🦋</span><div><span class="author-kicker">MỘT THẾ GIỚI CỦA KAIL</span><strong>Độc Dược Ngọt Ngào <span aria-hidden="true">🍷</span></strong></div>';document.querySelector('#home').append(mark);
+ const stamp=document.querySelector('.menu-stamp');stamp.innerHTML='<span class="stamp-butterfly" aria-hidden="true">🦋</span><b>ĐỘC DƯỢC NGỌT NGÀO</b><i>Kail · Dưới Ngai Tàn 🍷</i>';
+})();
