@@ -10,7 +10,7 @@
   list.replaceChildren();root.querySelector('.codex-count').textContent=items.length+' mục phù hợp';
   items.forEach(x=>{const b=document.createElement('button');b.type='button';b.textContent=x.id+' · '+x.title+' — '+x.region;b.setAttribute('aria-pressed',selected===x.id);b.onclick=()=>{selected=x.id;render();detail.focus({preventScroll:true})};list.append(b)});
   const item=items.find(x=>x.id===selected);detail.replaceChildren();const title=document.createElement('h2');title.textContent=item?.title||'Không tìm thấy mục phù hợp';detail.append(title);
-  if(item){const body=document.createElement('div');body.innerHTML=item.html;detail.append(body)}else{const t=document.createElement('p');t.textContent='Thử tên nghề, loài, mã hoặc tên miền khác.';detail.append(t)}detail.scrollTop=0;
+  if(item){const body=document.createElement('div');body.innerHTML=item.html;makeImagesZoomable(body);detail.append(body)}else{const t=document.createElement('p');t.textContent='Thử tên nghề, loài, mã hoặc tên miền khác.';detail.append(t)}detail.scrollTop=0;
  }
  root.querySelector('input').addEventListener('input',e=>{query=e.target.value;selected='';render()});render();
 })();
