@@ -1,8 +1,8 @@
 /* Game menu shell: a single persistent document keeps music playing between screens. */
 (()=>{
  const scenes=[...document.querySelectorAll('main>section[id]')];
- const names={home:'Sảnh lữ khách',story:'Câu chuyện của thế giới',atlas:'Atlas Veyra',people:'Gương mặt Liora',adventure:'Hành trang phiêu lưu',handbook:'Cẩm nang Tân thủ',commands:'Kho lệnh',profile:'Hồ sơ lữ khách'};
- const icons={home:'◇',atlas:'✥',people:'♙',adventure:'⚔',handbook:'▤',commands:'⌘',profile:'✧'};
+ const names={codex:'Bách khoa Veyra',home:'Sảnh lữ khách',story:'Câu chuyện của thế giới',atlas:'Atlas Veyra',people:'Gương mặt Liora',adventure:'Hành trang phiêu lưu',handbook:'Cẩm nang Tân thủ',commands:'Kho lệnh',profile:'Hồ sơ lữ khách'};
+ const icons={codex:'✦',home:'◇',atlas:'✥',people:'♙',adventure:'⚔',handbook:'▤',commands:'⌘',profile:'✧'};
  const nav=document.querySelector('#navigation');
  nav.querySelectorAll('a').forEach((a,i)=>{const id=a.hash.slice(1);a.innerHTML='<span class="nav-icon" aria-hidden="true">'+icons[id]+'</span><span>'+a.textContent.replace(' ↗','')+'</span><small>'+String(i+1).padStart(2,'0')+'</small>';});
  const header=document.querySelector('header');

@@ -9,7 +9,7 @@ Public URL: https://hanayuki1201.github.io/The-Throne-Fall/
 - Hai ảnh nền không chữ: ngang cho desktop, dọc cho màn hình nhỏ.
 - 4 bản đồ/sơ đồ, 6 miền đất, tính tuyến đi bộ Liora và phóng lớn ảnh.
 - 8 NPC, nghề, hành trang, Hoa Đăng và các đối tượng cơ khí.
-- Cẩm nang 21 chương chuyển từ bản tác giả, tìm kiếm và 63 mục lệnh có sao chép.
+- Cẩm nang 25 chương chuyển từ bản tác giả, tìm kiếm và 63 mục lệnh có sao chép.
 - Hồ sơ có tuổi, giới tính, thân phận cố định, kiểm chỉ số, xác nhận và xuất TXT.
 - Hai bản nhạc Scott Buckley, phát sau thao tác đầu tiên, dừng/đổi bài/âm lượng; giữ lựa chọn tắt.
 
@@ -48,3 +48,5 @@ Tham khảo thiết kế (không sao chép tài sản):
 https://immersive-g.com/projects/amazon-new-world/ — map-driven storytelling, hover interactions.
 https://bruno-simon.com/ — website as interactive space, user-controlled effects/audio.
 https://genshin.hoyoverse.com/en/map — presentation of regions.
+
+R1: thêm hồi phục, bào chế, học nghề, công thức chiến đấu và bảo toàn trạng thái. Các số mới cần kiểm qua phiên chơi; website là cẩm nang và tạo hồ sơ.

@@ -1,0 +1,4 @@
+THE THRONE FALL — R2.1 — 29/10/2026
+Giải nén và thay các tệp tương ứng trong repository, giữ nguyên thư mục assets. Không chỉ tải ZIP lên GitHub.
+Website công khai chưa tự cập nhật. Sau khi commit, chờ GitHub Pages build rồi tải lại trang.
+Bản này sửa tìm kiếm, form romance/mức hậu quả và đồng bộ cẩm nang 30 chương.
