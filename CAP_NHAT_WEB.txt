@@ -1,4 +1,8 @@
-THE THRONE FALL — R2.1 — 29/10/2026
-Giải nén và thay các tệp tương ứng trong repository, giữ nguyên thư mục assets. Không chỉ tải ZIP lên GitHub.
-Website công khai chưa tự cập nhật. Sau khi commit, chờ GitHub Pages build rồi tải lại trang.
-Bản này sửa tìm kiếm, form romance/mức hậu quả và đồng bộ cẩm nang 30 chương.
+THE THRONE FALL — R3.1 — GÓI WEB TỐI ƯU
+Giải nén rồi tải NỘI DUNG bên trong lên đúng thư mục gốc repository, thay các tệp trùng tên. Không chỉ tải file ZIP lên GitHub.
+Giữ đủ assets/art, assets/bestiary, assets/audio, assets/fonts. Giữ nguyên .github/workflows và cấu hình Pages của repository đang dùng.
+Sau khi cập nhật có thể xóa assets/guide cũ và ba font .ttf trong assets/fonts; bản web này dùng .woff2.
+Nếu đang có tab cũ, tải lại mạnh bằng Ctrl+Shift+R sau khi Pages triển khai xong.
+32 chương; 24 tranh quái/thú cưỡi cùng bộ tranh vùng đất, NPC và bản đồ. Cơ chế AI tự sinh quái/map/dungeon giữ nguyên.
+Bỏ ảnh cũ không còn được dùng; tối ưu WebP, giữ kích thước ảnh; font WOFF2 có tiếng Việt; MP3 128 kbps, đủ hai bản và đầy đủ thời lượng. Ghi công Scott Buckley / CC BY 4.0 vẫn được giữ.
+Website là cổng giới thiệu và cẩm nang. Prompt tích hợp riêng.
